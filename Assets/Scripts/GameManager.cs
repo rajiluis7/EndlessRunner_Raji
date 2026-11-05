@@ -1,16 +1,16 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public static GameManager Instance { get; private set; }
+    public float speed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool startGame { get; set; }
+    public bool gameOver { get; set; }
+
 }
+
+
