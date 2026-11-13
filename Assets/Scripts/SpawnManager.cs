@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
    [SerializeField] private GameObject obstaclePrefab;
    private Vector3 spawnPos = new Vector3(30, 5, 0);
    private float startDelay = 2;
-   private float repeatRate = 2;
+   private float repeatRate = 2f;
 
 
    // Start is called once before the first execution of Update after the MonoBehaviour is created

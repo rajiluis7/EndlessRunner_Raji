@@ -19,7 +19,7 @@ public class MoveLeft : MonoBehaviour
    void Update()
    {
        currentSpeed = GameManager.Instance.speed;
-       MoveToTheLeft();
+       transform.Translate(Vector3.left * Time.deltaTime * currentSpeed);
        DeleteOutOfScene();
        MoveToStart();
    }
