@@ -129,4 +129,3 @@ public class UIManager : MonoBehaviour
        GameManager.Instance.gameOver = true;
    }
 }
-

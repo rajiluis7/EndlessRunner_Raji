@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
            dirtParticle.Stop();
            explosionParticle.Play();
            playerAudio.PlayOneShot(crashSound, 1.0f);
-           //UIManager.Instance.GameOver();
+           UIManager.Instance.GameOver();
        }
 
 
