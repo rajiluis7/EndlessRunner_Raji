@@ -91,8 +91,8 @@ public class PlayerController : MonoBehaviour
    {
        if(other.gameObject.CompareTag("Scoreable"))
        {
-           Debug.Log("Received a Score");
-           //UIManager.Instance.UpdateScore(5);
+           
+           UIManager.Instance.UpdateScore(5);
        }
    }
 }
